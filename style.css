@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://cdn-image.departures.com/sites/default/files/1557159948/hawaii-surfing-sport-pacific-ocean-usa-HAWAIISURF0519.jpg");
+}
+h1 {
+  text-align: center;
+  color: deeppink;
+  font-family: 'Rancho';
+  font-size: xxx-large;
+}
+h2 {
+  font-family: 'Rancho';
+  color: deeppink;
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  font-family: 'Reggae One';
+  color: deeppink;
+  font-size: smaller;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  float: left;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
